@@ -1,0 +1,82 @@
+.testimonial-section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  background-color: #f1f0f0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 200%
+  
+}
+
+.heading {
+  margin-bottom: 2.5rem;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.testimonial-heading {
+  font-size: 2.25rem;
+  color: #222;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+.test {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Card Styling */
+.testimonial-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+/* Quote Text */
+.card p:first-child {
+  flex: 1 1 100%;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Author Image */
+.author-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f09f0a;
+  flex-shrink: 0;
+ display: flex;
+}
+
+/* Author Info */
+.card h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #f10a0a;
+  text-align: center;
+  font-family:sans-serif ;
+}
+
+
